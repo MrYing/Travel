@@ -20,32 +20,9 @@
 <script>
 export default {
   name: 'HomeWeekend',
+  props: {weekendList: Array},
   data () {
-    return {
-      weekendList: [{
-        id: '01',
-        title: '南京必游TOP10',
-        desc: '看尽王侯将相荣辱成败，六朝金粉潮起潮落',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1505/f1/ae9d4299b8aaea.jpg_r_640x214_0c555905.jpg'
-      },
-      {
-        id: '02',
-        title: '民国情怀国共风华',
-        desc: '找到你心中想要的那个民国时期的南京',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1505/e1/cdbf56d837da59.jpg_r_640x214_105fc3f2.jpg'
-      }, {
-        id: '03',
-        title: '孩子的游玩地',
-        desc: '让小朋友们欢脱起来',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1505/ed/8bce72632c9136.jpg_r_640x214_221c04c6.jpg'
-      },
-      {
-        id: '04',
-        title: '长江烂漫景',
-        desc: '览滚滚长江，看山花烂漫',
-        imgUrl: 'http://img1.qunarzz.com/sight/source/1603/ff/19b65f7ca38d70.jpg_r_640x214_c9a4a14b.jpg'
-      }]
-    }
+    return {}
   }
 }
 </script>
